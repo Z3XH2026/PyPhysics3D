@@ -3,7 +3,7 @@ import pytest
 
 from pyphysics.math import Vector2
 from pyphysics.physics2d.body import Body2D
-from pyphysics.physics2d.position_correction import correct_circle_positions
+from pyphysics.physics2d.collisions.position import correct_circle_positions
 
 
 def make_ball(x, y, mass):
