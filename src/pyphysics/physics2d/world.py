@@ -4,7 +4,7 @@ from .body import Body2D
 from .response import step_ground
 from pyphysics.physics2d.collider import CircleCollider
 from pyphysics.physics2d.circle_response import resolve_circle_collision
-from .position_correction import correct_circle_positions
+from .collisions.position import correct_circle_positions
 
 
 @dataclass
